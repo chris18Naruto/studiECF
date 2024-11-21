@@ -158,13 +158,13 @@ body {
   margin: 60px 40px;
 }
 #block_info .un {
-  background-image: url(/habitat/africa-4055169_1280.jpg);
+  background-image: url(../habitat/africa-4055169_1280.jpg);
 }
 #block_info .deux {
-  background-image: url(/habitat/suspension-bridge-959853_1280.jpg);
+  background-image: url(../habitat/suspension-bridge-959853_1280.jpg);
 }
 #block_info .trois {
-  background-image: url(/habitat/wetland-5292086_1280.jpg);
+  background-image: url(../habitat/wetland-5292086_1280.jpg);
 }
 #block_info #pic {
   background-position: center;
@@ -261,15 +261,15 @@ body {
   font-size: 30px;
 }
 .c1 {
-  background-image: url(/image\ animaux/DSC00724-1-scaled.jpg);
+  background-image: url(../image\ animaux/DSC00724-1-scaled.jpg);
   background-size: cover;
 }
 .c2 {
-  background-image: url(/image\ animaux/resto.jpg);
+  background-image: url(../image\ animaux/resto.jpg);
   background-size: cover;
 }
 .c3 {
-  background-image: url(/image\ animaux/Expedition-sauvage_Exp-nature-PSC-4-852x568-6f255e59085b.jpg);
+  background-image: url(../image\ animaux/Expedition-sauvage_Exp-nature-PSC-4-852x568-6f255e59085b.jpg);
   background-size: cover;
 }
 
