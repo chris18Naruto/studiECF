@@ -1,0 +1,308 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 500vh;
+  background-color: rgb(224, 223, 222);
+}
+
+#nav_header {
+  background-color: rgb(185, 201, 185);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(26, 214, 1);
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+
+#logo img {
+  height: 120px;
+  width: 140px;
+  padding-bottom: 30px;
+  border-radius: 50%;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(50, 145, 38);
+  font-size: 20px;
+  margin-right: 20px;
+}
+#menu a:hover {
+  border-bottom: 2px solid rgb(104, 168, 107);
+}
+
+#menu #login {
+  background-color: rgb(64, 129, 68);
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+}
+#menu #login:hover {
+  background-color: rgb(255, 255, 255);
+  color: green;
+}
+
+/* video */
+
+#main_video {
+  position: relative;
+  width: 100%;
+}
+
+#main_video video {
+  width: 100%;
+  height: auto;
+}
+
+#texte {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.527);
+  border-radius: 40px 0;
+  padding: 20px;
+  font-size: 20px;
+  width: 820px;
+}
+
+#texte p {
+  font-size: 25px;
+}
+#texte span {
+  color: rgb(61, 160, 31);
+}
+#more button {
+  background-color: rgb(27, 102, 24);
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  width: 260px;
+  border-style: none;
+}
+#more button:hover {
+  background-color: rgb(255, 255, 255);
+  color: green;
+  border-bottom: 3px solid rgb(28, 216, 11);
+}
+
+/* section presentation */
+
+#presentation_zoo h2 {
+  color: rgb(11, 148, 23);
+  text-align: center;
+  font-size: 29px;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+#presentation_zoo h2 span {
+  color: white;
+  background: linear-gradient(
+    to bottom right,
+    rgb(97, 109, 94),
+    rgb(50, 185, 9)
+  );
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#presentation_zoo h3 {
+  text-align: center;
+  color: rgb(24, 24, 48);
+  margin-top: 60px;
+  font-size: 23px;
+}
+#presentation_zoo h3 span {
+  color: green;
+  border-bottom: 1px solid green;
+}
+
+#info_zoo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 21px;
+  color: rgb(24, 24, 48);
+}
+#info_zoo span {
+  border-bottom: 1px solid rgb(4, 133, 10);
+  font-size: 22px;
+  font-weight: bold;
+}
+/* information des habitat */
+
+#habitat_info {
+  margin-top: 45px;
+  background-color: rgb(185, 201, 185);
+  padding: 10px 0;
+}
+#habitat_info h2 {
+  color: rgb(18, 116, 9);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Edu AU VIC WA NT Pre";
+}
+#block_info {
+  height: 450px;
+  width: 1450px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 40px;
+}
+#block_info .un {
+  background-image: url(/habitat/africa-4055169_1280.jpg);
+}
+#block_info .deux {
+  background-image: url(/habitat/suspension-bridge-959853_1280.jpg);
+}
+#block_info .trois {
+  background-image: url(/habitat/wetland-5292086_1280.jpg);
+}
+#block_info #pic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 675px;
+  border-radius: 60px;
+}
+#block_info #desc {
+  width: 675px;
+  text-align: center;
+  margin-right: 20px;
+}
+#desc h2 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: "Edu AU VIC WA NT Pre";
+}
+#desc p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+#desc span {
+  color: rgb(10, 34, 170);
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
+#desc li {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: rgb(19, 21, 128);
+  font-weight: bold;
+}
+#desc button {
+  background-color: rgb(28, 153, 12);
+  color: white;
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+#desc button:hover {
+  background-color: white;
+  color: green;
+}
+
+/* carte */
+
+#carte {
+  margin: 70px auto;
+}
+#carte h2 {
+  color: rgb(81, 100, 104);
+  text-align: center;
+  font-size: 45px;
+  font-family: "Edu AU VIC WA NT Pre";
+}
+
+#slider {
+  display: flex;
+  justify-content: space-around;
+}
+
+#one_card {
+  width: 420px;
+  height: 450px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+#one_card h3 {
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+#one_card p {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#one_card a {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px 10px;
+  font-size: 27px;
+  text-decoration: none;
+  text-align: center;
+}
+#one_card a:hover {
+  font-size: 30px;
+}
+.c1 {
+  background-image: url(/image\ animaux/DSC00724-1-scaled.jpg);
+  background-size: cover;
+}
+.c2 {
+  background-image: url(/image\ animaux/resto.jpg);
+  background-size: cover;
+}
+.c3 {
+  background-image: url(/image\ animaux/Expedition-sauvage_Exp-nature-PSC-4-852x568-6f255e59085b.jpg);
+  background-size: cover;
+}
+
+#info {
+  margin-top: 290px;
+}
+
+#link {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+/* footer */
+
+#foot {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#foot h5 {
+  color: orange;
+  font-size: 20px;
+  font-family: "Protest Revolution";
+}
+#foot button {
+  background-color: orange;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
